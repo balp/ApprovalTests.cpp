@@ -62,7 +62,7 @@ Running tests gives the following output:
 
 
 ```
-<sup>[snippet source](/tests/DocTest_Tests/documentation/approval_tests/ForgottenToConfigure.HelpMessage.approved.txt#L1-L29) / [anchor](#snippet-ForgottenToConfigure.HelpMessage.approved.txt)</sup>
+<sup>[snippet source](/tests/DocTest_Tests/docs/approval_tests/ForgottenToConfigure.HelpMessage.approved.txt#L1-L29) / [anchor](#snippet-ForgottenToConfigure.HelpMessage.approved.txt)</sup>
 <!-- endsnippet -->
 
 **Things to check:**

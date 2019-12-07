@@ -20,7 +20,7 @@ All of our disposable objects take advantage of the C++17 language feature `[[no
 ```cpp
 Approvals::useApprovalsSubdirectory("directory");
 ```
-<sup>[snippet source](/tests/DocTest_Tests/documentation/DisposableSamples.cpp#L12-L14) / [anchor](#snippet-disposable_incorrect)</sup>
+<sup>[snippet source](/tests/DocTest_Tests/docs/DisposableSamples.cpp#L12-L14) / [anchor](#snippet-disposable_incorrect)</sup>
 <!-- endsnippet -->
 
 If you are on C++14 or below, the compiler will not detect this, but the code is still incorrect.
@@ -32,7 +32,7 @@ The code should look like this:
 ```cpp
 auto disposer = Approvals::useApprovalsSubdirectory("directory");
 ```
-<sup>[snippet source](/tests/DocTest_Tests/documentation/DisposableSamples.cpp#L7-L9) / [anchor](#snippet-disposable_correct)</sup>
+<sup>[snippet source](/tests/DocTest_Tests/docs/DisposableSamples.cpp#L7-L9) / [anchor](#snippet-disposable_correct)</sup>
 <!-- endsnippet -->
 
 ---

@@ -44,7 +44,7 @@ REQUIRE(s.getFillings().contains("Tomato"));
 REQUIRE(s.getFillings().contains("Lettuce"));
 REQUIRE(s.getFillings().contains("Cheddar"));
 ```
-<sup>[snippet source](/tests/Catch2_Tests/documentation/OverviewExamples.cpp#L89-L100) / [anchor](#snippet-sandwich_example_with_requires)</sup>
+<sup>[snippet source](/tests/Catch2_Tests/docs/OverviewExamples.cpp#L89-L100) / [anchor](#snippet-sandwich_example_with_requires)</sup>
 <!-- endsnippet -->
 
 ## Approval Tests
@@ -61,7 +61,7 @@ Sandwich s = createSandwichForTest();
 // Assert
 Approvals::verify(s);
 ```
-<sup>[snippet source](/tests/Catch2_Tests/documentation/OverviewExamples.cpp#L105-L110) / [anchor](#snippet-sandwich_example_with_approvals)</sup>
+<sup>[snippet source](/tests/Catch2_Tests/docs/OverviewExamples.cpp#L105-L110) / [anchor](#snippet-sandwich_example_with_approvals)</sup>
 <!-- endsnippet -->
 
 This generates the approval file - which is generated **for** you, but [approved **by** you](/doc/ApprovingResults.md#top).
@@ -75,7 +75,7 @@ sandwich {
     fillings: ["Tomato", "Lettuce", "Cheddar"]
 }
 ```
-<sup>[snippet source](/tests/Catch2_Tests/documentation/approval_tests/OverviewExamples.SandwichExampleWithApprovals.approved.txt#L1-L5) / [anchor](#snippet-OverviewExamples.SandwichExampleWithApprovals.approved.txt)</sup>
+<sup>[snippet source](/tests/Catch2_Tests/docs/approval_tests/OverviewExamples.SandwichExampleWithApprovals.approved.txt#L1-L5) / [anchor](#snippet-OverviewExamples.SandwichExampleWithApprovals.approved.txt)</sup>
 <!-- endsnippet -->
 
 ---

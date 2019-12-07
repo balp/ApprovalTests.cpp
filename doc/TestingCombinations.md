@@ -83,7 +83,7 @@ CombinationApprovals::verifyAllCombinations(
         listOfInput2s,
         listOfInput3s);
 ```
-<sup>[snippet source](/tests/Catch2_Tests/documentation/CombinationsSampleCode.cpp#L25-L34) / [anchor](#snippet-sample_combinations_of_three)</sup>
+<sup>[snippet source](/tests/Catch2_Tests/docs/CombinationsSampleCode.cpp#L25-L34) / [anchor](#snippet-sample_combinations_of_three)</sup>
 <!-- endsnippet -->
 
 If you are using C++14 or above, you can simplify this by using `auto` or `auto&` for the lambda parameters:
@@ -100,7 +100,7 @@ CombinationApprovals::verifyAllCombinations(
         listOfInput2s,
         listOfInput3s);
 ```
-<sup>[snippet source](/tests/Catch2_Tests/documentation/CombinationsSampleCode.cpp#L43-L52) / [anchor](#snippet-sample_combinations_of_three_with_auto)</sup>
+<sup>[snippet source](/tests/Catch2_Tests/docs/CombinationsSampleCode.cpp#L43-L52) / [anchor](#snippet-sample_combinations_of_three_with_auto)</sup>
 <!-- endsnippet -->
 
 ---
