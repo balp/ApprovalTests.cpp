@@ -99,7 +99,7 @@ TEST_CASE("MultipleOutputFiles-DataDriven")
     }
 }
 ```
-<sup>[snippet source](/tests/Catch2_Tests/docs/Catch2DocumentationSamples.cpp#L61-L77) / [anchor](#snippet-catch2_multiple_output_files_dynamic)</sup>
+<sup>[snippet source](/tests/Catch2_Tests/docs/Catch2DocsSamples.cpp#L61-L77) / [anchor](#snippet-catch2_multiple_output_files_dynamic)</sup>
 <!-- endsnippet -->
 
 Or hard-coded, with multiple sections:
@@ -124,7 +124,7 @@ TEST_CASE("MultipleOutputFiles-ForOneObject")
     }
 }
 ```
-<sup>[snippet source](/tests/Catch2_Tests/docs/Catch2DocumentationSamples.cpp#L79-L96) / [anchor](#snippet-catch2_multiple_output_files_hard_coded)</sup>
+<sup>[snippet source](/tests/Catch2_Tests/docs/Catch2DocsSamples.cpp#L79-L96) / [anchor](#snippet-catch2_multiple_output_files_hard_coded)</sup>
 <!-- endsnippet -->
 
 Note: Catch2 sub-sections continue to run even if the previous one failed. This is useful, as it allows you to approve all the files in one test run.
@@ -157,7 +157,7 @@ TEST_CASE("MultipleOutputFiles-ForOneObject")
     }
 }
 ```
-<sup>[snippet source](/tests/DocTest_Tests/docs/DocTestDocumentationSamples.cpp#L64-L81) / [anchor](#snippet-doctest_multiple_output_files_hard_coded)</sup>
+<sup>[snippet source](/tests/DocTest_Tests/docs/DocTestDocsSamples.cpp#L64-L81) / [anchor](#snippet-doctest_multiple_output_files_hard_coded)</sup>
 <!-- endsnippet -->
 
 ### Approval Tests
@@ -183,7 +183,7 @@ TEST_CASE("ApprovalTests-MultipleOutputFiles-DataDriven")
     }
 }
 ```
-<sup>[snippet source](/tests/DocTest_Tests/docs/DocTestDocumentationSamples.cpp#L83-L97) / [anchor](#snippet-approvals_multiple_output_files_dynamic)</sup>
+<sup>[snippet source](/tests/DocTest_Tests/docs/DocTestDocsSamples.cpp#L83-L97) / [anchor](#snippet-approvals_multiple_output_files_dynamic)</sup>
 <!-- endsnippet -->
 
 Or hard-coded, with multiple sections:
@@ -208,7 +208,7 @@ TEST_CASE("ApprovalTests-MultipleOutputFiles-ForOneObject")
     }
 }
 ```
-<sup>[snippet source](/tests/DocTest_Tests/docs/DocTestDocumentationSamples.cpp#L99-L116) / [anchor](#snippet-approvals_multiple_output_files_hard_coded)</sup>
+<sup>[snippet source](/tests/DocTest_Tests/docs/DocTestDocsSamples.cpp#L99-L116) / [anchor](#snippet-approvals_multiple_output_files_hard_coded)</sup>
 <!-- endsnippet -->
 
 ## Approving multiple files in one test
@@ -244,7 +244,7 @@ TEST_CASE("ApprovalTests-MultipleOutputFiles-AutoApproving")
     exceptions.release();
 }
 ```
-<sup>[snippet source](/tests/DocTest_Tests/docs/DocTestDocumentationSamples.cpp#L118-L136) / [anchor](#snippet-approvals_multiple_output_files_auto_approving)</sup>
+<sup>[snippet source](/tests/DocTest_Tests/docs/DocTestDocsSamples.cpp#L118-L136) / [anchor](#snippet-approvals_multiple_output_files_auto_approving)</sup>
 <!-- endsnippet -->
  
 
